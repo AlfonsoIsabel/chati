@@ -76,25 +76,54 @@
 	<meta charset="utf-8">
 	<title></title>
 </head>
-<body>
+<body style="background: skyblue;">
 
-	<h1>Registro</h1>
-	<form name="registro" action="" method="POST">
-		<input type="text" name="nombre" value="" required placeholder="Nombre">
-		<input type="email" name="correo" value="" required placeholder="Correo Electrónico">
-		<input type="password" name="clave" value="" required placeholder="Contraseña">
-		<input type="password" name="reclave" value="" required placeholder="Repite Contraseña">
-		<input type="date" name="fdn" value="" required>
-		<select name="sexo" required>
-		    <option value="">-- Sexo</option>
-		    <option value="Mujer">Mujer</option>
-		    <option value="Hombre">Hombre</option>
-		    <option value="Otro">Otro</option>
-		</select>
-		<button type="submit">Regístrame</button>
-	</form>
+	<div class="container d-flex flex-column">
+		<div class="row">
+			<div class="col-6">
+				<h1>Registro</h1>
+			</div>
+		</div>
 
-	<p>Ya tengo cuenta. <a href="index.php">Iniciar Sesión</a></p>
+		<div class="row mt-3">			
+			<div class="col-4">
+				<form name="registro" action="" method="POST">
+					
+					<div class="mb-3">
+						<input type="text" name="nombre" value="" required placeholder="Nombre" class="form-control">
+					</div>
+					<div class="mb-3">
+						<input type="email" name="correo" value="" required placeholder="Correo Electrónico" class="form-control">
+					</div>
+					<div class="mb-3">
+						<input type="password" name="clave" value="" required placeholder="Contraseña" class="form-control">
+					</div>
+					<div class="mb-3">
+						<input type="password" name="reclave" value="" required placeholder="Repite Contraseña" class="form-control">
+					</div>
+					<div class="mb-3">
+						<input type="date" name="fdn" value="" required class="form-control">
+					</div>
+					<div class="mb-3">
+						<select name="sexo" required class="form-control">
+						    <option value="">-- Sexo</option>
+						    <option value="Mujer">Mujer</option>
+						    <option value="Hombre">Hombre</option>
+						    <option value="Otro">Otro</option>
+						</select>
+					</div>
+					<button type="submit" class="btn btn-primary">Regístrame</button>
+				</form>
+
+				<p class="mt-3">Ya tengo cuenta. <a href="index.php">Iniciar Sesión</a></p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 
 </body>
