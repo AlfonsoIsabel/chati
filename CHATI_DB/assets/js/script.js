@@ -1,5 +1,0 @@
-/* VARIABLES */
-
-/* FUNCIONES */
-
-/* GENERAL */
