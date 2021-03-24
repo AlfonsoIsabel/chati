@@ -12,7 +12,7 @@ session_start();
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="style.css">
 	<title>Document</title>
 </head>
 <body>
